@@ -1,0 +1,43 @@
+$red: #ff0000;
+$grey: #808080;
+$greyishWhite: #cac8c8;
+$MinusButtonTextColor: #ff0000;
+$PlusButtonTextColor: #00ff21;
+$DisplayHeight:100px;
+$DisplayWidth:200px;
+
+body {
+    background-color: $greyishWhite;
+
+    table {
+        div {
+            background-color: $grey;
+            width: $DisplayWidth;
+            height: $DisplayHeight;
+            align-items: center;
+            vertical-align:middle;
+
+            label {
+                width:$DisplayWidth;
+                height:$DisplayHeight;
+                font-size: 50px;
+                font-weight: bold;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.MainContainer {
+    div:first-child {
+    }
+}
+
+.MinusButton {
+    color: $MinusButtonTextColor;
+}
+
+.PlusButton {
+    color: $PlusButtonTextColor;
+}
+

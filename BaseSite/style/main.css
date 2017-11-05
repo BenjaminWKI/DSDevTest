@@ -1,0 +1,22 @@
+body {
+  background-color: #cac8c8; }
+  body table div {
+    background-color: #808080;
+    width: 200px;
+    height: 100px;
+    align-items: center;
+    vertical-align: middle; }
+    body table div label {
+      width: 200px;
+      height: 100px;
+      font-size: 50px;
+      font-weight: bold;
+      text-align: center; }
+
+.MinusButton {
+  color: #ff0000; }
+
+.PlusButton {
+  color: #00ff21; }
+
+/*# sourceMappingURL=main.css.map */
