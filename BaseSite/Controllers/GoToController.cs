@@ -8,7 +8,6 @@ namespace BaseSite.Controllers
 {
     public class GoToController : Controller
     {
-        // GET: GoTo
         public ActionResult LinkedIn()
         {
             return Redirect("https://www.linkedin.com/in/benjaminwki/");

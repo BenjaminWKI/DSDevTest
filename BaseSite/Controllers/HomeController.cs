@@ -14,23 +14,5 @@ namespace BaseSite.Controllers
 
             return View();
         }
-
-
-        public int MyValue
-        {
-            get
-            {
-                var value = TempData["CurrentCounter"];
-
-                if (value is null)
-                    return 0;
-                else
-                    return (int)value;
-            }
-            set
-            {
-                TempData["CurrentCounter"] = value;
-            }
-        }
     }
 }
